@@ -3,7 +3,7 @@ Polityka Prywatności / Privacy Policy — Stocky
 Ostatnia aktualizacja: [22.05.2026]
 1. Kto jest administratorem danych?
 Aplikacja Stocky jest tworzona i utrzymywana przez:
-[mql4mql5developer@gmail.com]
+[Norbert Pająk]
 Kontakt: [mql4mql5developer@gmail.com]
 2. Jakie dane zbiera aplikacja?
 Stocky przechowuje dane wprowadzone przez użytkownika (nazwy przedmiotów, ich ilości, komentarze w dzienniku, konfiguracja powiadomień) wyłącznie lokalnie na urządzeniu użytkownika w bazie danych aplikacji (Room/SQLite). Dane te nie są wysyłane na nasze serwery.
@@ -80,7 +80,7 @@ W sprawach dotyczących prywatności prosimy o kontakt pod adresem:
 Last updated: [22.05.2026]
 1. Who is the data controller?
 The Stocky app is developed and maintained by:
-[mql4mql5developer@gmail.com]
+[Norbert Pająk]
 Contact: [mql4mql5developer@gmail.com]
 2. What data does the app collect?
 Stocky stores user-entered data (item names, quantities, journal comments, and notification settings) exclusively on the user's device in a local database (Room/SQLite). This data is not sent to our servers.
