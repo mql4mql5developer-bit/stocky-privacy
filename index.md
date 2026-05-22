@@ -1,212 +1,153 @@
-# Polityka Prywatności / Privacy Policy — Stocky
-
----
-
-# 🇵🇱 Polityka Prywatności
-
-**Ostatnia aktualizacja:** 12.05.2026
-
-## 1. Kto jest administratorem danych?
-
+Polityka Prywatności / Privacy Policy — Stocky
+🇵🇱 Polityka Prywatności
+Ostatnia aktualizacja: [22.05.2026]
+1. Kto jest administratorem danych?
 Aplikacja Stocky jest tworzona i utrzymywana przez:
-**[mql4mql5developer]**
+[mql4mql5developer@gmail.com]
 Kontakt: [mql4mql5developer@gmail.com]
-
-## 2. Jakie dane zbiera aplikacja?
-
-**Dane wprowadzone bezpośrednio przez użytkownika** — w tym nazwy przedmiotów, ich ilości, komentarze w dzienniku, nazwy paneli, własne linki oraz konfiguracja powiadomień — są przechowywane **wyłącznie lokalnie na urządzeniu użytkownika** w bazie danych aplikacji (Room/SQLite). Twórca aplikacji nie ma do nich dostępu i nie są one przesyłane na żadne serwery.
-
-Aplikacja korzysta jednak z **usług zewnętrznych firmy Google** (Firebase oraz Google AdMob), które — niezależnie od działań użytkownika — mogą gromadzić pewne dane techniczne i analityczne na potrzeby działania reklam, statystyk użytkowania oraz zdalnej konfiguracji aplikacji. Szczegóły opisano w sekcji 6.
-
-## 3. Dane zdrowotne
-
-Aplikacja umożliwia przechowywanie informacji dotyczących materiałów medycznych stosowanych w terapii cukrzycy (np. wkłucia, sensory, insulina, paski testowe). Dane te:
-
-* są przechowywane wyłącznie na urządzeniu użytkownika,
-* nie są wysyłane do żadnych serwerów,
-* nie są udostępniane stronom trzecim,
-* nie są przetwarzane przez twórcę aplikacji,
-* **nie są przekazywane do usług Firebase ani AdMob** — usługi te nie mają dostępu do treści wprowadzanych przez użytkownika.
-
-## 4. Uprawnienia systemowe
-
+2. Jakie dane zbiera aplikacja?
+Stocky przechowuje dane wprowadzone przez użytkownika (nazwy przedmiotów, ich ilości, komentarze w dzienniku, konfiguracja powiadomień) wyłącznie lokalnie na urządzeniu użytkownika w bazie danych aplikacji (Room/SQLite). Dane te nie są wysyłane na nasze serwery.
+Aplikacja korzysta z zewnętrznych usług — Google AdMob, Firebase oraz sieci afiliacyjnej Webpartners — które mogą zbierać dodatkowe dane zgodnie z własnymi politykami prywatności (szczegóły poniżej).
+3. Dane zdrowotne
+Aplikacja umożliwia przechowywanie informacji dotyczących materiałów medycznych stosowanych w terapii cukrzycy. Dane te:
+są przechowywane wyłącznie na urządzeniu użytkownika,
+nie są wysyłane na nasze serwery ani udostępniane stronom trzecim przez twórców aplikacji,
+nie są przetwarzane przez twórców aplikacji.
+4. Reklamy — Google AdMob
+Aplikacja wyświetla reklamy za pośrednictwem usługi Google AdMob (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA).
+AdMob może zbierać i przetwarzać:
+identyfikator reklamowy urządzenia (Android Advertising ID),
+model i producenta urządzenia,
+wersję systemu operacyjnego,
+przybliżoną lokalizację (na podstawie adresu IP),
+dane o wyświetlonych reklamach i interakcjach z nimi.
+Dane te są wykorzystywane do wyświetlania dopasowanych reklam i mogą być przesyłane na serwery Google.
+Rezygnacja z reklam spersonalizowanych:
+Użytkownik może wyłączyć reklamy spersonalizowane w ustawieniach urządzenia:
+Ustawienia → Prywatność → Reklamy → Zresetuj identyfikator reklamowy / Rezygnacja z personalizacji
+Polityka prywatności Google: policies.google.com/privacy
+5. Analityka — Firebase
+Aplikacja korzysta z Firebase (Google LLC) do celów analitycznych oraz do obsługi dynamicznych treści (Remote Config).
+Firebase może zbierać i przetwarzać:
+zdarzenia w aplikacji (otwarcia, sesje, nawigacja między ekranami),
+identyfikatory urządzenia i instalacji,
+model urządzenia, wersję systemu i wersję aplikacji,
+kraj i język urządzenia (na podstawie ustawień systemowych).
+Dane te są wykorzystywane do analizy sposobu korzystania z aplikacji i są przesyłane na serwery Google.
+Polityka prywatności Firebase / Google: firebase.google.com/support/privacy
+6. Linki afiliacyjne — Webpartners
+Aplikacja zawiera linki afiliacyjne do zewnętrznych sklepów i usług, realizowane za pośrednictwem sieci afiliacyjnej Webpartners (Webpartners Sp. z o.o., Polska).
+Kliknięcie linku afiliacyjnego może spowodować:
+przekierowanie do zewnętrznej strony internetowej sklepu lub usługi,
+zapis w systemie Webpartners informacji o tym, że użytkownik trafił na stronę za pośrednictwem naszej aplikacji (tzw. atrybucja kliknięcia),
+ustawienie pliku cookie lub identyfikatora śledzącego na urządzeniu użytkownika przez serwis docelowy lub system Webpartners,
+powiązanie ewentualnego zakupu z naszą aplikacją w celu naliczenia prowizji.
+Twórcy aplikacji mogą otrzymać prowizję z tytułu zakupów dokonanych przez użytkownika po przejściu przez link afiliacyjny. Wysokość prowizji jest ustalana między twórcami aplikacji a siecią Webpartners i nie wpływa na cenę produktu płaconą przez użytkownika.
+Dane zbierane przez Webpartners w procesie atrybucji mogą obejmować:
+anonimowy identyfikator kliknięcia,
+datę i godzinę kliknięcia,
+typ urządzenia i system operacyjny,
+identyfikator partnera (twórców aplikacji).
+Polityka prywatności Webpartners: webpartners.pl/polityka-prywatnosci
+Polityka prywatności sklepów, do których prowadzą linki afiliacyjne, jest regulowana przez ich właścicieli niezależnie od niniejszego dokumentu.
+7. Uprawnienia systemowe
 Aplikacja może korzystać z następujących uprawnień systemu Android:
-
-| Uprawnienie | Cel |
-|---|---|
-| `POST_NOTIFICATIONS` | Wysyłanie powiadomień o niskim stanie zapasów |
-| `RECEIVE_BOOT_COMPLETED` | Przywrócenie zaplanowanych powiadomień po restarcie urządzenia |
-| `SCHEDULE_EXACT_ALARM` | Planowanie dokładnych powiadomień (Android 12+) |
-| `INTERNET` | Pobieranie zdalnej konfiguracji (Firebase) oraz wyświetlanie reklam (AdMob) |
-| `ACCESS_NETWORK_STATE` | Sprawdzanie dostępności sieci przed pobraniem konfiguracji i reklam |
-
-Żadne z powyższych uprawnień nie jest wykorzystywane do zbierania danych osobowych wprowadzanych w aplikacji.
-
-## 5. Pliki CSV
-
-Funkcja eksportu CSV tworzy pliki na urządzeniu użytkownika. Pliki te zawierają dane wprowadzone przez użytkownika i są zapisywane w wybranej przez niego lokalizacji. Twórca aplikacji nie ma dostępu do tych plików.
-
-## 6. Usługi zewnętrzne
-
-Aplikacja integruje następujące usługi zewnętrzne dostarczane przez firmę **Google LLC**:
-
-### 6.1. Google AdMob (reklamy)
-
-Aplikacja wyświetla baner reklamowy za pośrednictwem usługi Google AdMob. AdMob może zbierać dane urządzenia, w tym:
-
-* **identyfikator reklamowy** (Advertising ID),
-* **model i wersję urządzenia**, wersję systemu operacyjnego,
-* **przybliżoną lokalizację** (na podstawie adresu IP),
-* informacje o wyświetleniach i kliknięciach reklam,
-* dane potrzebne do mierzenia zasięgu i skuteczności reklam.
-
-Dzięki temu **Google może zliczać uruchomienia aplikacji, wyświetlenia reklam i interakcje z nimi** — niezależnie od działań twórcy aplikacji. Użytkownik może zrezygnować z reklam spersonalizowanych w ustawieniach urządzenia: **Ustawienia → Prywatność → Reklamy**.
-
-### 6.2. Firebase Remote Config (zdalna konfiguracja)
-
-Aplikacja korzysta z usługi Firebase Remote Config do **zdalnego zarządzania treścią ekranów „Polecane sklepy" oraz „Sklep"** (lista linków do zewnętrznych sklepów). Dzięki temu twórca może aktualizować polecane linki bez konieczności wydawania nowej wersji aplikacji. W ramach tej usługi Firebase może gromadzić:
-
-* **identyfikator instalacji Firebase** (Firebase Installation ID),
-* dane techniczne urządzenia niezbędne do dostarczenia konfiguracji,
-* informacje o liczbie pobrań konfiguracji.
-
-### 6.3. Firebase Analytics (statystyki użytkowania)
-
-Wraz z Firebase Remote Config aplikacja automatycznie korzysta z usługi Firebase Analytics, która gromadzi **anonimowe dane statystyczne** o korzystaniu z aplikacji, m.in.:
-
-* liczbę uruchomień aplikacji i czas trwania sesji,
-* informacje o otwieranych ekranach,
-* model urządzenia, wersję systemu, język, kraj (przybliżona lokalizacja na podstawie IP),
-* identyfikator instalacji Firebase oraz identyfikator reklamowy (jeśli udostępniony),
-* zdarzenia związane z aktualizacjami i awariami aplikacji.
-
-Dane te są wykorzystywane wyłącznie w formie zagregowanej, w celu zrozumienia sposobu korzystania z aplikacji i poprawy jej działania. **Nie zawierają one treści wprowadzanych przez użytkownika** (nazw przedmiotów, stanów zapasów, wpisów w dzienniku, danych zdrowotnych).
-
-### 6.4. Polityka Google
-
-Wszystkie powyższe usługi podlegają polityce prywatności firmy Google, dostępnej pod adresem:
-**[policies.google.com/privacy](https://policies.google.com/privacy)**
-
-### 6.5. Linki zewnętrzne
-
-Ekran „Linki" oraz „Sklep" mogą zawierać odnośniki do zewnętrznych stron internetowych (np. sklepów). Kliknięcie w te linki spowoduje otwarcie strony w przeglądarce lub WebView — polityka prywatności tych stron jest odrębna i regulowana przez ich właścicieli.
-
-## 7. Dzieci
-
-Aplikacja nie jest skierowana do dzieci poniżej 13. roku życia i nie zbiera świadomie danych od dzieci.
-
-## 8. Zmiany w polityce prywatności
-
-Wszelkie zmiany w niniejszej polityce będą publikowane pod tym samym adresem URL. W przypadku istotnych zmian użytkownicy mogą zostać poinformowani za pośrednictwem aktualizacji aplikacji.
-
-## 9. Kontakt
-
+Uprawnienie	Cel
+`POST_NOTIFICATIONS`	Wysyłanie powiadomień o niskim stanie zapasów
+`RECEIVE_BOOT_COMPLETED`	Przywrócenie zaplanowanych powiadomień po restarcie urządzenia
+`SCHEDULE_EXACT_ALARM`	Planowanie dokładnych powiadomień (Android 12+)
+`INTERNET`	Wyświetlanie reklam AdMob, komunikacja z Firebase, obsługa linków afiliacyjnych
+`ACCESS_NETWORK_STATE`	Sprawdzanie dostępności sieci przez AdMob
+8. Pliki CSV
+Funkcja eksportu CSV tworzy pliki na urządzeniu użytkownika. Pliki te zawierają dane wprowadzone przez użytkownika i są zapisywane w wybranej przez niego lokalizacji. Twórcy aplikacji nie mają dostępu do tych plików.
+9. Dzieci
+Aplikacja nie jest skierowana do dzieci poniżej 13. roku życia i nie zbiera świadomie danych od dzieci. Usługi reklamowe AdMob są skonfigurowane zgodnie z wymogami dotyczącymi rodzin (Google Families Policy).
+10. Przekazywanie danych poza EOG
+Usługi Google (AdMob, Firebase) mogą przesyłać dane do Stanów Zjednoczonych i innych krajów poza Europejskim Obszarem Gospodarczym. Google stosuje standardowe klauzule umowne zatwierdzone przez Komisję Europejską jako podstawę prawną przekazywania danych.
+Webpartners Sp. z o.o. jest podmiotem polskim działającym na terenie EOG i przetwarza dane zgodnie z przepisami RODO.
+11. Podstawa prawna przetwarzania danych (RODO)
+W zakresie, w jakim dane osobowe użytkowników z Europejskiego Obszaru Gospodarczego są przetwarzane przez usługi zewnętrzne, podstawą prawną przetwarzania jest:
+uzasadniony interes administratora (analityka, bezpieczeństwo, atrybucja afiliacyjna) — art. 6 ust. 1 lit. f RODO,
+zgoda użytkownika na reklamy spersonalizowane (ustawienia urządzenia) — art. 6 ust. 1 lit. a RODO.
+12. Zmiany w polityce prywatności
+Wszelkie zmiany w niniejszej polityce będą publikowane pod tym samym adresem URL wraz z zaktualizowaną datą. W przypadku istotnych zmian użytkownicy mogą zostać poinformowani za pośrednictwem aktualizacji aplikacji.
+13. Kontakt
 W sprawach dotyczących prywatności prosimy o kontakt pod adresem:
-**[mql4mql5developer@gmail.com]**
-
+[mql4mql5developer@gmail.com]
 ---
 
----
-
-# 🇬🇧 Privacy Policy
-
-**Last updated:** 2026-05-12
-
-## 1. Who is the data controller?
-
+🇬🇧 Privacy Policy
+Last updated: [22.05.2026]
+1. Who is the data controller?
 The Stocky app is developed and maintained by:
-**[mql4mql5developer]**
+[mql4mql5developer@gmail.com]
 Contact: [mql4mql5developer@gmail.com]
-
-## 2. What data does the app collect?
-
-**Data entered directly by the user** — including item names, quantities, journal comments, panel names, custom links, and notification settings — is stored **exclusively on the user's device** in the app's local database (Room/SQLite). The app developer has no access to this data, and it is never transmitted to any server.
-
-However, the app uses **third-party services provided by Google** (Firebase and Google AdMob), which — independently of the user's actions — may collect certain technical and analytical data for the purpose of serving ads, gathering usage statistics, and delivering remote configuration. Details are described in Section 6.
-
-## 3. Health-related data
-
-The app allows users to store information about medical supplies used in diabetes management (e.g. infusion sets, sensors, insulin, test strips). This data:
-
-* is stored solely on the user's device,
-* is never sent to any server,
-* is never shared with third parties,
-* is never processed by the app developer,
-* **is never transmitted to Firebase or AdMob** — these services do not have access to user-entered content.
-
-## 4. System permissions
-
+2. What data does the app collect?
+Stocky stores user-entered data (item names, quantities, journal comments, and notification settings) exclusively on the user's device in a local database (Room/SQLite). This data is not sent to our servers.
+The app uses third-party services — Google AdMob, Firebase, and the Webpartners affiliate network — which may collect additional data in accordance with their own privacy policies (see below).
+3. Health-related data
+The app allows users to store information about medical supplies used in diabetes management. This data:
+is stored solely on the user's device,
+is never sent to our servers or shared with third parties by the app's developers,
+is never processed by the app's developers.
+4. Advertising — Google AdMob
+The app displays advertisements through Google AdMob (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA).
+AdMob may collect and process:
+device advertising identifier (Android Advertising ID),
+device model and manufacturer,
+operating system version,
+approximate location (based on IP address),
+data about displayed ads and interactions with them.
+This data is used to serve relevant advertisements and may be transmitted to Google's servers.
+Opting out of personalized ads:
+Users can disable personalized ads in device settings:
+Settings → Privacy → Ads → Reset Advertising ID / Opt out of Ads Personalization
+Google's privacy policy: policies.google.com/privacy
+5. Analytics — Firebase
+The app uses Firebase (Google LLC) for analytics purposes and to handle dynamic content (Remote Config).
+Firebase may collect and process:
+in-app events (app opens, sessions, screen navigation),
+device and installation identifiers,
+device model, OS version, and app version,
+country and device language (based on system settings).
+This data is used to analyze app usage and is transmitted to Google's servers.
+Firebase / Google privacy policy: firebase.google.com/support/privacy
+6. Affiliate links — Webpartners
+The app contains affiliate links to external shops and services, operated through the Webpartners affiliate network (Webpartners Sp. z o.o., Poland).
+Clicking an affiliate link may result in:
+redirection to an external shop or service website,
+a record being stored in the Webpartners system indicating that the user arrived via our app (click attribution),
+a tracking cookie or identifier being set on the user's device by the destination site or Webpartners,
+a purchase being attributed to our app for commission purposes.
+The app's developers may receive a commission for purchases made by the user after clicking an affiliate link. This commission is agreed between the developers and Webpartners and does not affect the price paid by the user.
+Data collected by Webpartners during attribution may include:
+anonymous click identifier,
+date and time of the click,
+device type and operating system,
+partner identifier (app developers).
+Webpartners privacy policy: webpartners.pl/polityka-prywatnosci
+The privacy practices of the shops linked via affiliate links are governed by their respective owners.
+7. System permissions
 The app may use the following Android system permissions:
-
-| Permission | Purpose |
-|---|---|
-| `POST_NOTIFICATIONS` | Sending low-stock reminder notifications |
-| `RECEIVE_BOOT_COMPLETED` | Restoring scheduled notifications after device restart |
-| `SCHEDULE_EXACT_ALARM` | Scheduling precise notifications (Android 12+) |
-| `INTERNET` | Fetching remote configuration (Firebase) and serving ads (AdMob) |
-| `ACCESS_NETWORK_STATE` | Checking network availability before fetching configuration and ads |
-
-None of these permissions are used to collect personal data entered into the app.
-
-## 5. CSV files
-
-The CSV export feature creates files on the user's device. These files contain user-entered data and are saved to a location chosen by the user. The app developer has no access to these files.
-
-## 6. Third-party services
-
-The app integrates the following third-party services provided by **Google LLC**:
-
-### 6.1. Google AdMob (advertising)
-
-The app displays a banner advertisement through Google AdMob. AdMob may collect device data, including:
-
-* **advertising ID**,
-* **device model and version**, operating system version,
-* **approximate location** (based on IP address),
-* information about ad impressions and clicks,
-* data needed to measure ad reach and effectiveness.
-
-As a result, **Google may count app launches, ad impressions, and user interactions with ads** — independently of the app developer's actions. You can opt out of personalized ads in your device settings: **Settings → Privacy → Ads**.
-
-### 6.2. Firebase Remote Config (remote configuration)
-
-The app uses Firebase Remote Config to **remotely manage the content of the "Recommended shops" and "Shop" screens** (list of external shop links). This allows the developer to update recommended links without releasing a new app version. As part of this service, Firebase may collect:
-
-* **Firebase Installation ID**,
-* technical device data required to deliver the configuration,
-* information about the number of configuration fetches.
-
-### 6.3. Firebase Analytics (usage statistics)
-
-Together with Firebase Remote Config, the app automatically uses Firebase Analytics, which collects **anonymous statistical data** about app usage, including:
-
-* number of app launches and session duration,
-* information about screens opened,
-* device model, OS version, language, country (approximate location based on IP),
-* Firebase Installation ID and advertising ID (if available),
-* events related to app updates and crashes.
-
-This data is used only in aggregated form, for the purpose of understanding how the app is used and improving its functionality. **It does not contain content entered by the user** (item names, stock levels, journal entries, or health-related data).
-
-### 6.4. Google's policy
-
-All of the above services are subject to Google's privacy policy, available at:
-**[policies.google.com/privacy](https://policies.google.com/privacy)**
-
-### 6.5. External links
-
-The "Links" and "Shop" screens may contain links to external websites (e.g. online shops). Clicking these links will open the site in a browser or WebView — the privacy practices of those sites are governed by their own privacy policies.
-
-## 7. Children
-
-The app is not directed at children under the age of 13 and does not knowingly collect data from children.
-
-## 8. Changes to this policy
-
-Any changes to this policy will be published at the same URL. Users may be notified of significant changes through an app update.
-
-## 9. Contact
-
+Permission	Purpose
+`POST_NOTIFICATIONS`	Sending low-stock reminder notifications
+`RECEIVE_BOOT_COMPLETED`	Restoring scheduled notifications after device restart
+`SCHEDULE_EXACT_ALARM`	Scheduling precise notifications (Android 12+)
+`INTERNET`	Displaying AdMob ads, communicating with Firebase, handling affiliate links
+`ACCESS_NETWORK_STATE`	Checking network availability for AdMob
+8. CSV files
+The CSV export feature creates files on the user's device. These files contain user-entered data and are saved to a location chosen by the user. The app developers have no access to these files.
+9. Children
+The app is not directed at children under the age of 13 and does not knowingly collect data from children. AdMob advertising services are configured in accordance with Google's Families Policy requirements.
+10. International data transfers
+Google services (AdMob, Firebase) may transfer data to the United States and other countries outside the European Economic Area. Google relies on Standard Contractual Clauses approved by the European Commission as the legal basis for such transfers.
+Webpartners Sp. z o.o. is a Polish entity operating within the EEA and processes data in accordance with GDPR.
+11. Legal basis for processing (GDPR)
+To the extent that personal data of users from the European Economic Area is processed by third-party services, the legal basis for processing is:
+legitimate interests of the controller (analytics, security, affiliate attribution) — Art. 6(1)(f) GDPR,
+user consent to personalized advertising (device settings) — Art. 6(1)(a) GDPR.
+12. Changes to this policy
+Any changes to this policy will be published at the same URL with an updated date. Users may be notified of significant changes through an app update.
+13. Contact
 For any privacy-related inquiries, please contact us at:
-**[mql4mql5developer@gmail.com]**
-
+[mql4mql5developer@gmail.com]
